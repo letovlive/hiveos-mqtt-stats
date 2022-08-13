@@ -38,6 +38,7 @@ class ResponseFormatter {
         temperature,
         fan: this.stats.fan[index],
         power: this.stats.power[index],
+        mtemp: this.stats.mtemp[index],
         ...this.formatHashes(this.stats.miner_stats.hs[index]),
       };
     });
