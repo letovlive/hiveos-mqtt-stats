@@ -6,7 +6,7 @@ To deploy the project:
 
 ```
 cd ~
-git clone 
+git clone https://github.com/letovlive/hiveos-mqtt-stats.git
 chmod +x install.sh
 chmod +x start.sh
 chmod +x stop.sh
