@@ -1,6 +1,6 @@
-# HiveOS MQTT statistic.
+# HiveOS MQTT statistics.
 
-The package contains MQTT publisher for HiveOS miner.
+The package contains MQTT statistics publisher for HiveOS miner.
 
 ## Installation
 To run the project:
@@ -33,7 +33,7 @@ Install and run:
 ./start.sh
 ```
 
-To stop publishing:
+To stop publishing statistics:
 
 ```bash
 ./stop.sh
